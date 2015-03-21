@@ -186,6 +186,7 @@
 					$.isFunction(o.complete) && !callback && o.complete(el, target);
 				});
 			};
+			return _.i;
 		};
 
 		//  Autoplay functionality
